@@ -13,7 +13,9 @@ class ErrorRepository {
   };
 }
 
-console.log(ErrorRepository.errors);
-console.log(ErrorRepository.translate(404));
-console.log(ErrorRepository.translate(200));
-console.log(ErrorRepository.translate(900));
+export { ErrorRepository };
+
+// console.log(ErrorRepository.errors);
+// console.log(ErrorRepository.translate(404));
+// console.log(ErrorRepository.translate(200));
+// console.log(ErrorRepository.translate(900));
